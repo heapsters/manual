@@ -75,7 +75,7 @@ Include the `-q` flag which prevents program from contacting non-existent gradin
 For example:
 
 ```
-$ ./ctarget -q  # i
+$ ./ctarget -q
 ```
 
 *and there ya have it*
