@@ -20,27 +20,27 @@ $ sudo apt-get install g++-multilib
 
 #### Git it up
 
-> Installing **g**it
+Installing **g**it
 
 ```
 $ sudo apt-get update
 $ sudo apt-get install git
 ```
-> Configuring **g**it
+Configuring **g**it
 
 ```
 $ git config --global user.name "Your Name"
 $ git config --global user.email "youremail@domain.com"
 ```
 
-> Setup Malloc
+Setup Malloc
 
 ```
 $ git clone https://github.com/heapsters/mon-malloc.git Malloc
 $ cd Malloc
 ```
 
-> Committing Changes
+Committing Changes
 
 ```
 # Make some changes and save
@@ -50,7 +50,7 @@ $ git push
 # Follow prompt and done!
 ```
 
-> Pulling Changes
+Pulling Changes
 
 ```
 $ git pull
@@ -72,7 +72,7 @@ when running executables `./ctarget` and `./rtarget`?
 
 Include the `-q` flag which prevents program from contacting non-existent grading server in addition to the above error.
 
-> For example:
+For example:
 
 ```
 $ ./ctarget -q  # i
